@@ -55,8 +55,3 @@ class Solution:
             else:
                 ans += a[s[i]]
         return ans
-
-
-if __name__ == '__main__':
-    s = Solution()
-    print(s.romanToInt('LVIII'))

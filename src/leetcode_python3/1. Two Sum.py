@@ -19,11 +19,7 @@ class Solution:
         """
         dic = {}
         for i, num in enumerate(nums):
-            if num in dic and dic[num] != i:
+            if num in dic:
                 return [dic[num], i]
-            dic[target-num] = i
-
-
-if __name__ == "__main__":
-    s = Solution()
-    print(s.twoSum([2, 7, 11, 15], 18))
+            else:
+                dic[target - num] = i

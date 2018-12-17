@@ -18,6 +18,7 @@
 
 # Coud you solve it without converting the integer to a string?
 
+
 class Solution:
     def isPalindrome(self, x):
         """
@@ -28,8 +29,3 @@ class Solution:
             return True
         else:
             return False
-
-if __name__ == '__main__':
-    s = Solution()
-    print(s.isPalindrome(100))
-        
